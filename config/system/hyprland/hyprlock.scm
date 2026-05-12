@@ -1,8 +1,7 @@
 (define-module (config system hyprland hyprlock)
   #:use-module (gnu)
-  #:use-module (config system hyrland hyprlang)
+  #:use-module (config system hyprland hyprlang)
   #:export (hyprlock-config hyprlock-capability))
-
 
 
 

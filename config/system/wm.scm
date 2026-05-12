@@ -7,6 +7,7 @@
   #:use-module (guix utils)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages fontutils)
+  #:use-module (guix download)
   #:use-module (gnu packages xorg))
 
 ;; Packages we need:

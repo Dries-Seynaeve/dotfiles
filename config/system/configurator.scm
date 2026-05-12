@@ -1,6 +1,7 @@
 ;; This module generates configuration files for specific software. 
 (define-module (config system configurator)
-  #:use-module (gnu services configuration)  
+  #:use-module (gnu services configuration)
+  #:use-module (gnu services)
   #:export (make-conf-from-key-value
             make-conf-from-key-value-with-heading
             serialize-configuration-with-heading-from-item

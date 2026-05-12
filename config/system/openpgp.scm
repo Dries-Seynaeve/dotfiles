@@ -2,6 +2,7 @@
   #:use-module (gnu)
   #:use-module (gnu packages gnupg)
   #:use-module (gnu home services gnupg)
+  #:use-module (gnu services)
   #:export (openpgp-capability))
 
 

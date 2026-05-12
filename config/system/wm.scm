@@ -9,6 +9,7 @@
   #:use-module (gnu packages fontutils)
   #:use-module (guix download)
   #:use-module (gnu packages ncurses)
+  #:use-module (gnu packages pkg-config)
   #:use-module (gnu packages xorg))
 
 ;; Packages we need:

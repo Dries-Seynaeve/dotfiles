@@ -6,7 +6,7 @@
 	     (gnu services xorg)
 	     (gnu services desktop)
 	     (guix ui)
-	     (xlibre)
+	     ;; (xlibre)
 	     (guix gexp)
              (config system configurator)
              (config system gtk)
@@ -18,11 +18,11 @@
 
 
 ;; XLIBRE - Simple configuration
-(define my-xlibre-config
-  (xlibre-configuration
-    (modules (list xlibre-video-amdgpu xlibre-input-libinput))
-    (drivers '("amdgpu"))
-    (keyboard-layout (keyboard-layout "br"))))
+;; (define my-xlibre-config
+;;   (xlibre-configuration
+;;     (modules (list xlibre-video-amdgpu xlibre-input-libinput))
+;;     (drivers '("amdgpu"))
+;;     (keyboard-layout (keyboard-layout "br"))))
 
 
 
@@ -52,8 +52,8 @@
 		  "emacs-ledger-mode"
 		  "ledger"
                   "waybar"
-		  "xlibre-server"
-		  "xlibre-input-libinput"
+		  ;; "xlibre-server"
+		  ;; "xlibre-input-libinput"
 		  "hyprlock"
 		  "the-silver-searcher"
 		  "python-lsp-server"

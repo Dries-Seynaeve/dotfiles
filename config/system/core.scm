@@ -28,7 +28,7 @@
   #:use-module (gnu packages xorg)
   #:use-module (gnu)
   #:use-module (guix packages)
-  #:use-module (config packages dwm-custom)
+  #:use-module (config system wm)
   ;; #:use-module (gnu packages suckless)
   #:export (core-packages))
 

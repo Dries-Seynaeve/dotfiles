@@ -46,7 +46,7 @@
                         dbus
                         screen
                         tar
-			dwm
+			dries-dwm
                         zip
                         unzip
                         binutils

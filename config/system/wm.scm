@@ -17,7 +17,7 @@
 ;;- menu
 ;;- feh
 
-(define-public dwm
+(define-public dries-dwm
   (package
     (name "dwm")
     (version "6.8")

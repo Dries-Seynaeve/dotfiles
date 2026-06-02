@@ -25,11 +25,11 @@
     (source (origin
 	      (method git-fetch)
 	      (uri (git-reference
-		     (url "https://github.com/Dries-Seynaeve/dwm-custom.git")
-		     (commit "976ce96")))
+		    (url "https://github.com/Dries-Seynaeve/dwm-custom.git")
+		    (commit "976ce96")))
 	    (file-name (git-file-name name version))
 	    (sha256
-	     (base32 "1wp37da4bys56d01hgp3y6cs2msdwqqvpd60xn2h9sz8bm7q1ifs"))))
+	     (base32 "0y2qm3xvx2rvnlh0zcmmhy9ylb6gpjsrpcf7ljy15ryc8qmb0516"))))
     (build-system gnu-build-system)
     (arguments
      (list
@@ -71,15 +71,16 @@ floating layouts (by default). This is my configuration of the dwm system.")
 
 (define-public st
   (package
-    (name "st")
+    (name "dries-st")
     (version "0.9.3")
-    (source
-     (origin
-       (method url-fetch)
-       (uri (string-append "https://dl.suckless.org/st/st-"
-                           version ".tar.gz"))
-       (sha256
-        (base32 "16v4dsjrsh5jwah38ygg8808zc536szwxj1qxm6kswgdrnmzxncy"))))
+    (source (origin
+	     (method git-fetch)
+	     (uri (git-reference
+		   (url "https://github.com/Dries-Seynaeve/dwm-custom.git")
+		   (commit "763c164")))
+	     (file-name (git-file-name name version))
+	     (sha256
+	      (base32 "1wp37da4bys56d01hgp3y6cs2msdwqqvpd60xn2h9sz8bm7q1ifs"))))
     (build-system gnu-build-system)
     (arguments
      (list

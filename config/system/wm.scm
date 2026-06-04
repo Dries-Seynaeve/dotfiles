@@ -26,7 +26,7 @@
 	      (method git-fetch)
 	      (uri (git-reference
 		    (url "https://github.com/Dries-Seynaeve/dwm-custom.git")
-		    (commit "962a88dcca97167c10934cfdd13907ec70e343ca")))
+		    (commit "2b7affa37d8948ce1720a7044231e38efa2689da")))
 	    (file-name (git-file-name name version))
 	    (sha256
 	     (base32 "0y2qm3xvx2rvnlh0zcmmhy9ylb6gpjsrpcf7ljy15ryc8qmb0516"))))

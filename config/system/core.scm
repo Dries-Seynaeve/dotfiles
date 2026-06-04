@@ -17,6 +17,7 @@
   #:use-module (gnu packages llvm)
   #:use-module (gnu packages multiprecision)
   #:use-module (gnu packages package-management)
+  #:use-module (gnu package code)
   #:use-module (gnu packages rust-apps)
   #:use-module (gnu packages screen)
   #:use-module (gnu packages shellutils)

@@ -32,30 +32,33 @@
   ;; #:use-module (gnu packages suckless)
   #:export (core-packages))
 
+(define home-packages
+  (make-parameters (list
+		    htop
+		    btop
+		    ;; development
+		    emacs
+		    clang
+		    gcc
+                    gcc-toolchain
+		    )))
 
 (define core-packages
-  (make-parameter (list htop
-                        emacs-pgtk
-                        ;;vim
+  (make-parameter (list emacs
+                        vim
                         git
-                        ed
-                        btop
                         openssh
                         openssl
-                        clang
                         dbus
                         screen
-                        tar
 			dries-dwm
 			dries-st
                         zip
                         unzip
                         binutils
                         gmp
-                        gcc
-                        gcc-toolchain
                         curl
-                        ripgrep
+			the-silver-searcher
                         net-tools
                         dstat
                         gsettings-desktop-schemas

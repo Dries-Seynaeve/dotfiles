@@ -80,7 +80,7 @@ floating layouts (by default). This is my configuration of the dwm system.")
 		   (commit "763c164")))
 	     (file-name (git-file-name name version))
 	     (sha256
-	      (base32 "1wp37da4bys56d01hgp3y6cs2msdwqqvpd60xn2h9sz8bm7q1ifs"))))
+	      (base32 "0h5mcb0sfmvm725gfrv3sp18c6bp4bynlynz5w7cjwjlkknjk3lb"))))
     (build-system gnu-build-system)
     (arguments
      (list

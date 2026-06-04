@@ -47,6 +47,7 @@
                         screen
                         tar
 			dries-dwm
+			dries-st
                         zip
                         unzip
                         binutils

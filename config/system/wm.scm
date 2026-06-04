@@ -69,9 +69,9 @@ floating layouts (by default). This is my configuration of the dwm system.")
 
 ;; Still to edit
 
-(define-public st
+(define-public dries-st
   (package
-    (name "dries-st")
+    (name "st")
     (version "0.9.3")
     (source (origin
 	     (method git-fetch)

@@ -33,7 +33,7 @@
   #:export (core-packages))
 
 (define home-packages
-  (make-parameters (list
+  (make-parameter (list
 		    htop
 		    btop
 		    ;; development

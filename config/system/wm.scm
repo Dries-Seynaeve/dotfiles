@@ -77,7 +77,7 @@ floating layouts (by default). This is my configuration of the dwm system.")
 	     (method git-fetch)
 	     (uri (git-reference
 		   (url "https://github.com/Dries-Seynaeve/st-custom.git")
-		   (commit "763c164")))
+		   (commit "a566c71")))
 	     (file-name (git-file-name name version))
 	     (sha256
 	      (base32 "0h5mcb0sfmvm725gfrv3sp18c6bp4bynlynz5w7cjwjlkknjk3lb"))))
